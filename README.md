@@ -3,7 +3,7 @@
 * The images has the pixels of 28*28 and already transform to 784(=28*28) every row in file and array.So one row is one image.
 * The labels values are 0 to 9. 
 
-#cnn
+# cnn
 1. the first convolutional layer:patch is [5,5,1,32],mean 5 * 5 size,32 num,1 is that images are grayscale,bias is 32,bias num = patch num.max_pool:[1,2,2,1]
 2. the second convolutional layer:patch is [5,5,32,64],32 is come from the first layer output,mean 32 feature.bias is 64 same as patch[-1].max_pool:[1,2,2,1]
 3. the thrid densely connected layer:w is [7 * 7 * 64,1024],bias is 1024.Activation function is y=wx+b
