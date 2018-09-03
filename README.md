@@ -15,7 +15,7 @@
 * minimise:ADAM optimiser.
 * use stochastic trainning to train.
 
-##### the dimensionality transfromation 
+# the dimensionality transfromation 
  
 input layer>>>input:[None,784],output:[?,28,28,1]  
 convolutional layer>>>input:[?,28,28,1],w:[5,5,1,32],output:[?,14,14,32]  
